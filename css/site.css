@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgba(10, 10, 10, 0.808);
+}
+.container-1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.container-1 > .container-title {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(236, 239, 241);
+  height: 50px;
+  background-color: rgba(24, 9, 90, 0.63);
+  margin-top: 12px;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+  border-radius: 5px;
+  box-shadow: -5px 0px 10px 10px rgba(0, 0, 0, 0.685);
+}
+.container-1 > .container-content {
+  width: 100%;
+  height: 500px;
+  margin-top: 10px;
+}
+.container-1 > .container-content > .card-input {
+  background-color: aqua;
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  height: 200px;
+  justify-content: center;
+  margin: 90px 0px 0px 90px;
+  padding: 10px 0px 0px 10px;
+}
+.container-1 > .container-content > .card-input > form {
+  width: 90%;
+  font-family: "Ubuntu", sans-serif;
+}
+.container-1 > .container-content > .card-input > form > .row {
+  width: 100%;
+}
+.container-1 > .container-content > .card-input > form > div > label {
+  color: rgb(245, 245, 245);
+  padding: 7px;
+  border-radius: 5px 0 0 5px;
+}
+.container-1
+  > .container-content
+  > .card-input
+  > form
+  > div
+  > input[type="text"] {
+  width: 70%;
+  height: 30px;
+  border-radius: 0 5px 5px 0;
+  border-style: none;
+  position: relative;
+  right: 5px;
+  padding: 7px;
+}
+
+.container-1 > .container-content > .card-input > form > div {
+  margin-bottom: 20px;
+}
+.container-1 > .container-content > .card-input > form > button {
+  width: 50%;
+  height: 30px;
+  margin-left: 20%;
+  font-size: 15px;
+  border-radius: 20px;
+  border-color: azure;
+  background-color: rgba(245, 245, 229, 0.911);
+}
+.container-1 > .container-content > .card-input > form > button:hover {
+  cursor: pointer;
+}
